@@ -25,3 +25,7 @@ Ciclo: Editar, add, commit, push
 -Dei uma leve melhorada no diario.md
 -Novos comandos que treinei no GitBash "touch, grep, head, tail, wc -l," criando arquivos em pastas e modificando apenas pelo GitBash.
 
+## DIA 07 08/11/2026
+-Dia anterior nao fiz o exercicio, hoje fiz um exercicio com todos os comandos que fiz durante a semana.
+- Adicionei comandos para visualizar diferentes formas em um arquivo .txt usando "HEAD, TAIL E WC".
+-Nao entendi muito como usar o pipe "|" Reforçar para o proximo dia.
