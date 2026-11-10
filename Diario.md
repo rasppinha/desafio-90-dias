@@ -29,3 +29,9 @@ Ciclo: Editar, add, commit, push
 -Dia anterior nao fiz o exercicio, hoje fiz um exercicio com todos os comandos que fiz durante a semana.
 - Adicionei comandos para visualizar diferentes formas em um arquivo .txt usando "HEAD, TAIL E WC".
 -Nao entendi muito como usar o pipe "|" Reforçar para o proximo dia.
+-Ainda nao decorei os comandos para fazer o upload do diario para o github via comandos.
+
+## DIA 08 09/11/2026
+-Introdução ao python, junto ao claude vi explicações de como ele funciona.
+-Comandos Basicos, criei dois exercicios para treinar, comandos que retornam o "PRINT"
+-Aprendi que tenho que salvar tudo oque faço no VSCODE para rodar.
