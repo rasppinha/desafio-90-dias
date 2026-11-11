@@ -35,3 +35,9 @@ Ciclo: Editar, add, commit, push
 -Introdução ao python, junto ao claude vi explicações de como ele funciona.
 -Comandos Basicos, criei dois exercicios para treinar, comandos que retornam o "PRINT"
 -Aprendi que tenho que salvar tudo oque faço no VSCODE para rodar.
+
+## Dia 09 11/11/2026
+-Dia anterior falhei
+-Hoje o foco foi criar um codigo em py funcional usando comandos basicos do dia 08
+-Criei um codigo "ex01_revisao.py" funcional de uma forma que eu consegui entender todo o codigo.
+-Aprendi a desativar uma linha de codigo e adicionar comentarios da forma correta.
