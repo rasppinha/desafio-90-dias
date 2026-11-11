@@ -42,5 +42,5 @@ Ciclo: Editar, add, commit, push
 - Criei um codigo "ex01_revisao.py" funcional de uma forma que eu consegui entender todo o codigo.
 - Aprendi a desativar uma linha de codigo e adicionar comentarios da forma correta.
 ## Comandos e variaveis principais
-PRINT, INPUT, IF, ELSE.
-STR, FLOAT, BOOL, INT
+-PRINT, INPUT, IF, ELSE
+-STR, FLOAT, BOOL, INT
