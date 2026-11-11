@@ -41,6 +41,6 @@ Ciclo: Editar, add, commit, push
 - Hoje o foco foi criar um codigo em py funcional usando comandos basicos do dia 08
 - Criei um codigo "ex01_revisao.py" funcional de uma forma que eu consegui entender todo o codigo.
 - Aprendi a desativar uma linha de codigo e adicionar comentarios da forma correta.
-#Comandos e variaveis principais
+## Comandos e variaveis principais
 PRINT, INPUT, IF, ELSE
 STR, FLOAT, BOOL, INT
