@@ -44,3 +44,6 @@ Ciclo: Editar, add, commit, push
 ## Comandos e variaveis principais
 -PRINT, INPUT, IF, ELSE
 -STR, FLOAT, BOOL, INT
+
+## Dia 10 12/11/2026
+- Estudei sobre 'Input' e F-strings ('ex02input.py)
