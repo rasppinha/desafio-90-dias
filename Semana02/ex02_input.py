@@ -1,4 +1,5 @@
- nome = input ("Nome do CLiente")
- valor = float(input("Valor do serviço"))
- print (F"Cliente {nome} deve R$ {150:.f}")
- 
+# exercicio, ex02_input.py
+# Obejetivo: Receber dados do usario e mostrar numa frase.
+nome = input("Nome do cliente: ") # Input devolve sempre o texto
+valor = float(input("valor do serviço: ")) # Float converte o texto em número
+print(f"Cliente {nome} deve r$ {valor:.2f}")
