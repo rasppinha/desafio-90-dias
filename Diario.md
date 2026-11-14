@@ -47,3 +47,6 @@ Ciclo: Editar, add, commit, push
 
 ## Dia 10 12/11/2026
 - Estudei sobre 'Input' e F-strings ('ex02input.py)
+
+## Dia 11 13/11/2026
+- implementaçao do if, else e elif + revisão de ontem. "ex02_revisao.py"
