@@ -9,16 +9,24 @@
 #  -Codigo para treinar variaveis.
 
 # --- Dados do cliente ---
-cliente = "Marcos"
-valor_servico = 150.50
-quantidade_pecas = "3"
-pago = False
+# cliente = "Marcos"
+# valor_servico = 150.50
+# quantidade_pecas = "3"
+# pago = False
 
-# Aqui o int() converte só para a conta; A variavel continua str
-print (cliente, valor_servico, int(quantidade_pecas) + 1, pago)
-print(type(cliente), type(valor_servico), type(quantidade_pecas), type(pago)) #STR=TEXTO, INT=NUM.INT, FLOAT=NUM. C. Virg., BOOL=TRUE/FALSE/
+# # Aqui o int() converte só para a conta; A variavel continua str
+# print (cliente, valor_servico, int(quantidade_pecas) + 1, pago)
+# print(type(cliente), type(valor_servico), type(quantidade_pecas), type(pago)) #STR=TEXTO, INT=NUM.INT, FLOAT=NUM. C. Virg., BOOL=TRUE/FALSE/
 
-# Agora guardo o numero de volta na gaveta: ela passa a ser int
-quantidade_pecas = int(quantidade_pecas)
-print(type(quantidade_pecas))
-end
+# # Agora guardo o numero de volta na gaveta: ela passa a ser int
+# quantidade_pecas = int(quantidade_pecas)
+# print(type(quantidade_pecas))
+# end
+
+ ## DIA 11
+valor = float(input("Valor do serviço: "))
+
+if valor >= 100:
+    print("Serviço médio ou grande")
+else:
+    print("Serviço pequeno")
