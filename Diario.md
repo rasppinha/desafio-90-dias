@@ -50,3 +50,7 @@ Ciclo: Editar, add, commit, push
 
 ## Dia 11 13/11/2026
 - implementaçao do if, else e elif + revisão de ontem. "ex02_revisao.py"
+
+## DIA 12 14/11/2026
+- Hoje o dia foi corrido, e por ser final de semana tive visita de amigos em casa. Me restou somente 15 min para fazer o bloco do dia.
+- Fiz um exercicio de acordo com oque aprendi de FLOAT, INPUT e etc... criei um script em .py "EX01_revisao.py"

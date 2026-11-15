@@ -24,9 +24,30 @@
 # end
 
  ## DIA 11
-valor = float(input("Valor do serviço: "))
 
-if valor >= 100:
-    print("Serviço médio ou grande")
-else:
-    print("Serviço pequeno")
+# valor = float(input("Valor do serviço: "))
+
+# if valor >= 100:
+#     print("Serviço médio ou grande")
+# else:
+#     print("Serviço pequeno")
+
+ ## DIA 12
+
+# ex04_orcamento.py
+
+# 1. PEDIR: serviço (float), quantidade de peças (int), valor de cada peça (float)
+
+# 2. GUARDAR: total = serviço + quantidade * valor da peça
+
+# 3. DECIDIR: se total >= 500, aplicar 10% de desconto; senão, sem desconto
+
+# 4. MOSTRAR: o total final com 2 casas decimais, numa f-string
+
+servico = float(input("Valor do serviço: "))
+qtd_pecas = float(input("qtd_pecas"))  
+valor_peca = float(input("valor_peca"))
+print(servico, qtd_pecas, valor_peca)
+
+total = (servico + qtd_pecas * valor_peca)
+print(total)
