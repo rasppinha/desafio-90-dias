@@ -51,3 +51,4 @@ print(servico, qtd_pecas, valor_peca)
 
 total = (servico + qtd_pecas * valor_peca)
 print(total)
+print(f"Total: R$ {total:.2f}")
