@@ -54,3 +54,7 @@ Ciclo: Editar, add, commit, push
 ## DIA 12 14/11/2026
 - Hoje o dia foi corrido, e por ser final de semana tive visita de amigos em casa. Me restou somente 15 min para fazer o bloco do dia.
 - Fiz um exercicio de acordo com oque aprendi de FLOAT, INPUT e etc... criei um script em .py "EX01_revisao.py"
+
+## DIA 13 13/11/2026
+- Criei um codigo que soma valores e serviços gera um resultado e se for maior que 500,00 ele aplica um desconto.
+- Quebrei um pouco a cabeça para entender como funciona o codigo por inteiro.
