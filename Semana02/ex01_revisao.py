@@ -45,10 +45,14 @@
 # 4. MOSTRAR: o total final com 2 casas decimais, numa f-string
 
 servico = float(input("Valor do serviço: "))
-qtd_pecas = float(input("qtd_pecas"))  
-valor_peca = float(input("valor_peca"))
-print(servico, qtd_pecas, valor_peca)
+qtd_pecas = int(input("qtd_pecas: "))  
+valor_peca = float(input("valor_peca: "))
 
-total = (servico + qtd_pecas * valor_peca)
-print(total)
+total = servico + qtd_pecas * valor_peca
+
+
+if total >= 500:
+    desconto = total * 0.10
+    total = total - desconto
+
 print(f"Total: R$ {total:.2f}")
