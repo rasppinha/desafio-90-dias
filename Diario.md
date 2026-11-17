@@ -21,22 +21,22 @@ Ciclo: Editar, add, commit, push
  ## Comandos
  Git clone, git pull e git restore.
 
-## DIA 05 - 06/11/2026
+## DIA 05- 06/11/2026
 - Dei uma leve melhorada no diario.md
 - Novos comandos que treinei no GitBash "touch, grep, head, tail, wc -l," criando arquivos em pastas e modificando apenas pelo GitBash.
 
-## DIA 07 08/11/2026
+## DIA 06 08/11/2026
 - Dia anterior nao fiz o exercicio, hoje fiz um exercicio com todos os comandos que fiz durante a semana.
 - Adicionei comandos para visualizar diferentes formas em um arquivo .txt usando "HEAD, TAIL E WC".
 - Nao entendi muito como usar o pipe "|" Reforçar para o proximo dia.
 - Ainda nao decorei os comandos para fazer o upload do diario para o github via comandos.
 
-## DIA 08 09/11/2026
+## DIA 07 09/11/2026
 - Introdução ao python, junto ao claude vi explicações de como ele funciona.
 - Comandos Basicos, criei dois exercicios para treinar, comandos que retornam o "PRINT"
 - Aprendi que tenho que salvar tudo oque faço no VSCODE para rodar.
 
-## Dia 09 11/11/2026
+## Dia 08 11/11/2026
 - Dia anterior falhei
 - Hoje o foco foi criar um codigo em py funcional usando comandos basicos do dia 08
 - Criei um codigo "ex01_revisao.py" funcional de uma forma que eu consegui entender todo o codigo.
@@ -45,16 +45,19 @@ Ciclo: Editar, add, commit, push
 -PRINT, INPUT, IF, ELSE
 -STR, FLOAT, BOOL, INT
 
-## Dia 10 12/11/2026
+## Dia 09 12/11/2026
 - Estudei sobre 'Input' e F-strings ('ex02input.py)
 
-## Dia 11 13/11/2026
+## Dia 10 13/11/2026
 - implementaçao do if, else e elif + revisão de ontem. "ex02_revisao.py"
 
-## DIA 12 14/11/2026
+## DIA 11 14/11/2026
 - Hoje o dia foi corrido, e por ser final de semana tive visita de amigos em casa. Me restou somente 15 min para fazer o bloco do dia.
 - Fiz um exercicio de acordo com oque aprendi de FLOAT, INPUT e etc... criei um script em .py "EX01_revisao.py"
 
-## DIA 13 13/11/2026
+## DIA 12 15/11/2026
 - Criei um codigo que soma valores e serviços gera um resultado e se for maior que 500,00 ele aplica um desconto.
 - Quebrei um pouco a cabeça para entender como funciona o codigo por inteiro.
+
+## Dia 13 17/11/2026
+-  Recriei o codigo do zero e fiz um quiz" junto a claude para achar erros em codigos que ela mesmo gerou, de acordo com oque aprendi e treinei.

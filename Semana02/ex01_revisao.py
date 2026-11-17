@@ -44,15 +44,32 @@
 
 # 4. MOSTRAR: o total final com 2 casas decimais, numa f-string
 
-servico = float(input("Valor do serviço: "))
-qtd_pecas = int(input("qtd_pecas: "))  
-valor_peca = float(input("valor_peca: "))
+# servico = float(input("Valor do serviço: "))
+# qtd_pecas = int(input("qtd_pecas: "))  
+# valor_peca = float(input("valor_peca: "))
 
-total = servico + qtd_pecas * valor_peca
+# total = servico + qtd_pecas * valor_peca
 
 
-if total >= 500:
-    desconto = total * 0.10
-    total = total - desconto
+# if total >= 500:
+#     desconto = total * 0.10
+#     total = total - desconto
 
-print(f"Total: R$ {total:.2f}")
+# print(f"Total: R$ {total:.2f}")
+
+# Dia 14 - Refazendo exercícios anteriores para fixar
+
+# Orçamento: calcula o total de um serviço e aplica desconto se necessário
+
+# 1. Perguntar: valor da mão de obra, quantidade de peças e valor de cada peça
+# 2. Calcular o total (mão de obra + quantidade vezes o valor da peça)
+# 3. Se o total for 500 ou mais, aplicar 10% de desconto
+# 4. Mostrar o total final com 2 casas decimais
+
+mao_de_obra = float(input("valor da mão de obra: "))
+qtd_pecas =  int(input("Quantidade de peças: "))
+valor_peca = float(input("Valor da peça: "))
+print(mao_de_obra, qtd_pecas, valor_peca)
+
+total = float(mao_de_obra + qtd_pecas * valor_peca)
+print (total)   
