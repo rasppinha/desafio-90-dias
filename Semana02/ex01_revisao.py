@@ -71,5 +71,9 @@ qtd_pecas =  int(input("Quantidade de peças: "))
 valor_peca = float(input("Valor da peça: "))
 print(mao_de_obra, qtd_pecas, valor_peca)
 
-total = float(mao_de_obra + qtd_pecas * valor_peca)
-print (total)   
+total = (mao_de_obra + qtd_pecas * valor_peca)
+
+if total >= 500:
+    desconto = total * 0.10
+    total = total - desconto
+print(f"total: R$ {total:.2f}")

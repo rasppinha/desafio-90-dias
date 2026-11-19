@@ -61,3 +61,8 @@ Ciclo: Editar, add, commit, push
 
 ## Dia 13 17/11/2026
 -  Recriei o codigo do zero e fiz um quiz" junto a claude para achar erros em codigos que ela mesmo gerou, de acordo com oque aprendi e treinei.
+
+## dia 14 18/11/2026
+- Alguns comandos ainda esta um pouco dificil de assimilar sua funçao dentro do coddigo e fazer sua ligaçao.
+- Por isso hoje eu refiz um codigo que adiciona descontos em um momento especifico. 
+- preciso treinar mais a f-string.
