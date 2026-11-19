@@ -66,3 +66,7 @@ Ciclo: Editar, add, commit, push
 - Alguns comandos ainda esta um pouco dificil de assimilar sua funçao dentro do coddigo e fazer sua ligaçao.
 - Por isso hoje eu refiz um codigo que adiciona descontos em um momento especifico. 
 - preciso treinar mais a f-string.
+
+## Dia 15 19/11/2026
+- estudei mais sonre inputs, if/else e f-string montei outro codigo (dessa vez sozinho), para cobrar, dar troco, mostrar valor que falta.
+- tive alguns problemas para entender pois o else só pega oque sobrou do if e estava tentando montar ele completo como se fosse um if.

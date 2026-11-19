@@ -66,14 +66,36 @@
 # 3. Se o total for 500 ou mais, aplicar 10% de desconto
 # 4. Mostrar o total final com 2 casas decimais
 
-mao_de_obra = float(input("valor da mão de obra: "))
-qtd_pecas =  int(input("Quantidade de peças: "))
-valor_peca = float(input("Valor da peça: "))
-print(mao_de_obra, qtd_pecas, valor_peca)
+# mao_de_obra = float(input("valor da mão de obra: "))
+# qtd_pecas =  int(input("Quantidade de peças: "))
+# valor_peca = float(input("Valor da peça: "))
+# print(mao_de_obra, qtd_pecas, valor_peca)
 
-total = (mao_de_obra + qtd_pecas * valor_peca)
+# total = (mao_de_obra + qtd_pecas * valor_peca)
 
-if total >= 500:
-    desconto = total * 0.10
-    total = total - desconto
-print(f"total: R$ {total:.2f}")
+# if total >= 500:
+#     desconto = total * 0.10
+#     total = total - desconto
+# print(f"total: R$ {total:.2f}")
+
+## DIA - 14 
+
+# 1. Pedir: valor da conta e valor pago (os dois com centavos)
+# 2. Decidir: o valor pago é maior ou igual ao da conta?
+# 3. Se sim: calcular e mostrar o troco (pago menos conta)
+# 4. Se não: calcular e mostrar quanto falta (conta menos pago)
+
+conta = float(input("Valor da conta: "))
+pago = float(input("Valor pago:  "))
+
+if pago >= conta:
+    troco = pago - conta
+    print(f"troco: R$ {troco:.2f}")
+
+
+else:
+    falta = conta - pago
+    print(f"Falta: R$ {falta:.2f}")
+
+
+     
