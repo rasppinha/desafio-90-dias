@@ -70,3 +70,7 @@ Ciclo: Editar, add, commit, push
 ## Dia 15 19/11/2026
 - estudei mais sonre inputs, if/else e f-string montei outro codigo (dessa vez sozinho), para cobrar, dar troco, mostrar valor que falta.
 - tive alguns problemas para entender pois o else só pega oque sobrou do if e estava tentando montar ele completo como se fosse um if.
+
+## Dia 16 20/11/2026 
+- Criei um exercicio de par ou impar para aprender a usar a "%"
+- O mesmo exercicio para ajudar a decorar o uso do "if" e "else"

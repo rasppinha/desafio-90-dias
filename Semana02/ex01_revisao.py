@@ -23,7 +23,7 @@
 # print(type(quantidade_pecas))
 # end
 
- ## DIA 11
+ ## DIA 12
 
 # valor = float(input("Valor do serviço: "))
 
@@ -32,7 +32,7 @@
 # else:
 #     print("Serviço pequeno")
 
- ## DIA 12
+ ## DIA 13
 
 # ex04_orcamento.py
 
@@ -78,24 +78,34 @@
 #     total = total - desconto
 # print(f"total: R$ {total:.2f}")
 
-## DIA - 14 
+## DIA - 15
 
 # 1. Pedir: valor da conta e valor pago (os dois com centavos)
 # 2. Decidir: o valor pago é maior ou igual ao da conta?
 # 3. Se sim: calcular e mostrar o troco (pago menos conta)
 # 4. Se não: calcular e mostrar quanto falta (conta menos pago)
 
-conta = float(input("Valor da conta: "))
-pago = float(input("Valor pago:  "))
+# conta = float(input("Valor da conta: "))
+# pago = float(input("Valor pago:  "))
 
-if pago >= conta:
-    troco = pago - conta
-    print(f"troco: R$ {troco:.2f}")
+# if pago >= conta:
+#     troco = pago - conta
+#     print(f"troco: R$ {troco:.2f}")
 
 
+# else:
+#     falta = conta - pago
+#     print(f"Falta: R$ {falta:.2f}")
+
+## DIA - 16
+
+# 1. Pedir: Qual é o numero?
+# 2. Decidir: Definir se o aquele numero é par ou impar!
+# 3. Mostrar: par ou impar!
+
+numero = int(input("Difite um número inteiro: "))
+
+if numero % 2 == 0:
+    print("Par")
 else:
-    falta = conta - pago
-    print(f"Falta: R$ {falta:.2f}")
-
-
-     
+    print("Impar")
