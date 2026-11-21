@@ -103,9 +103,26 @@
 # 2. Decidir: Definir se o aquele numero é par ou impar!
 # 3. Mostrar: par ou impar!
 
-numero = int(input("Difite um número inteiro: "))
+# numero = int(input("Difite um número inteiro: "))
 
-if numero % 2 == 0:
-    print("Par")
+# if numero % 2 == 0:
+#     print("Par")
+# else:
+#     print("Impar")
+
+## DIA - 17
+
+# 1. Pedir: Quanto tempo demorou?
+# 2. decidir: Isso foi rapido, normal ou demorou?
+# 3. Mostrar: O tempo que levou.
+
+dias = int(input("Dias do reparo: "))
+
+if dias <= 2:
+    print("Expresso")
+
+elif dias <= 7:
+    print("Normal")
+
 else:
-    print("Impar")
+    print("Demorado")

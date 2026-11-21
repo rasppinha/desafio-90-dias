@@ -74,3 +74,5 @@ Ciclo: Editar, add, commit, push
 ## Dia 16 20/11/2026 
 - Criei um exercicio de par ou impar para aprender a usar a "%"
 - O mesmo exercicio para ajudar a decorar o uso do "if" e "else"
+
+## Dia 17 21/11/2026
