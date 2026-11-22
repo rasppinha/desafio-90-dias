@@ -76,3 +76,7 @@ Ciclo: Editar, add, commit, push
 - O mesmo exercicio para ajudar a decorar o uso do "if" e "else"
 
 ## Dia 17 21/11/2026
+- como colocar o elif no codigo usando if, elif e else.
+
+## Dia 18 22/11/2026
+- Criei um novo codigo que inclui o elif, e fiz um quiz junto com a claude para ajudar a fixar como usar o if, elif e else.

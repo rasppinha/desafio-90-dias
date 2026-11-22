@@ -116,13 +116,32 @@
 # 2. decidir: Isso foi rapido, normal ou demorou?
 # 3. Mostrar: O tempo que levou.
 
+# dias = int(input("Dias do reparo: "))
+
+# # if dias <= 2:
+# #     print("Expresso")
+
+# # elif dias <= 7:
+# #     print("Normal")
+
+# # else:
+# #     print("Demorado")
+
+## DIA - 18
+
+# 1. Pedir quantos dias o reparo levou.
+# 2. Decidir em qual faixa os dias se encaixam:
+#    até 2 dias: Expresso / até 7 dias: Normal / mais de 7: Demora.
+# 3. Mostrar o prazo.
+
 dias = int(input("Dias do reparo: "))
 
 if dias <= 2:
     print("Expresso")
 
-elif dias <= 7:
+elif dias <=7: 
     print("Normal")
 
 else:
     print("Demorado")
+
