@@ -134,14 +134,36 @@
 #    até 2 dias: Expresso / até 7 dias: Normal / mais de 7: Demora.
 # 3. Mostrar o prazo.
 
-dias = int(input("Dias do reparo: "))
+# dias = int(input("Dias do reparo: "))
 
-if dias <= 2:
-    print("Expresso")
+# if dias <= 2:
+#     print("Expresso")
 
-elif dias <=7: 
-    print("Normal")
+# elif dias <=7: 
+#     print("Normal")
 
+# else:
+#     print("Demorado")
+
+## DIA 19 -
+
+# 1. Pedir: as três notas
+# 2. Calcular: a média (a soma das três notas dividida por 3)
+# 3. Decidir em qual faixa a média cai:
+#    7 ou mais: Aprovado / 5 ou mais: Recuperação / abaixo de 5: Reprovado
+# 4. Mostrar: a média com 2 casas decimais e a situação
+
+nota1 = float(input("Nota 1: "))
+nota2 = float(input("Nota 2: "))
+nota3 = float(input("Nota 3: "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+print(f"Média: {media:.2f}")
+
+if media >= 7:
+    print("Aprovado")
+elif media >= 5:
+    print("Recuperação")
 else:
-    print("Demorado")
-
+    print("Reprovado")

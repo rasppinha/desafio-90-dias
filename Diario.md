@@ -80,3 +80,6 @@ Ciclo: Editar, add, commit, push
 
 ## Dia 18 22/11/2026
 - Criei um novo codigo que inclui o elif, e fiz um quiz junto com a claude para ajudar a fixar como usar o if, elif e else.
+
+## Dia 19 23/11/2026
+-Hoje aprendi como fazer uma conta e tirar uma media em cima de 3 resultados. Com isso eu consegui calcular a nota de 3 provas de um "aluno" e calcular a media das notas.
