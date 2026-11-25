@@ -153,17 +153,53 @@
 #    7 ou mais: Aprovado / 5 ou mais: Recuperação / abaixo de 5: Reprovado
 # 4. Mostrar: a média com 2 casas decimais e a situação
 
-nota1 = float(input("Nota 1: "))
-nota2 = float(input("Nota 2: "))
-nota3 = float(input("Nota 3: "))
+# nota1 = float(input("Nota 1: "))
+# nota2 = float(input("Nota 2: "))
+# nota3 = float(input("Nota 3: "))
 
-media = (nota1 + nota2 + nota3) / 3
+# media = (nota1 + nota2 + nota3) / 3
 
-print(f"Média: {media:.2f}")
+# print(f"Média: {media:.2f}")
 
-if media >= 7:
-    print("Aprovado")
-elif media >= 5:
-    print("Recuperação")
-else:
-    print("Reprovado")
+# if media >= 7:
+#     print("Aprovado")
+# elif media >= 5:
+#     print("Recuperação")
+# else:
+#     print("Reprovado")
+
+## DIA 20 -
+
+# 1. Pedir: o valor da hora e a quantidade de horas trabalhadas
+# 2. Calcular: o total (valor da hora vezes as horas)
+# 3. Decidir: se as horas passarem de 5, somar R$ 50 de taxa extra ao total
+# 4. Mostrar: o total em reais com 2 casas decimais
+
+# valor_hora = float(input("Valor da hora: "))
+# horas = float(input("Quantidade de horas: "))
+
+# total = (horas * valor_hora)
+
+# if horas > 5:
+#     total = total + 50
+# print(f"Total: R$ {total:.2f}")
+
+# 1. Pedir: Valor por km e a distancia em km.
+# 2. Calcular: o total (valor do km vezes o km)
+# 3. Decidir: Se passar de 10 km soma 20,00 de taxa de deslocamento
+# 4. Mostrar: o total em reais com 2 casas decimais
+
+
+valor_km = float(input("Valor do KM rodado: "))
+distancia = float(input("Quantidade de KM total: "))
+
+total = distancia * valor_km
+
+if distancia > 30: 
+    total = total + 60
+
+elif distancia > 10:
+    total = total + 20
+
+
+print(f"Total: R$ {total:.2f}")
