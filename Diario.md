@@ -87,3 +87,6 @@ Ciclo: Editar, add, commit, push
 ## Dia 20 24/11/2026
 -Hoje aprendi novas formas de fazer contas no codigo e aplicar novos descontos, calcular horas e adicionar valores extras em casos especificos.
 - Usando calculos dentro de "()" e adicionando if e else, para adicionar valores extras.
+
+## Dia 21 25/11/2026
+-Hoje criei um codigo praticamente sozinho (ex01_revisao.py), que faz a coleta de nome, valor e quantidade. Com isso somar valor e quantidade e mostrar, se passar de um valor "x" é dado um desconto em uma porcentagem "y"
