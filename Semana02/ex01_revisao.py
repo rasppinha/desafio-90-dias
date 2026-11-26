@@ -190,16 +190,40 @@
 # 4. Mostrar: o total em reais com 2 casas decimais
 
 
-valor_km = float(input("Valor do KM rodado: "))
-distancia = float(input("Quantidade de KM total: "))
+# valor_km = float(input("Valor do KM rodado: "))
+# distancia = float(input("Quantidade de KM total: "))
 
-total = distancia * valor_km
+# total = distancia * valor_km
 
-if distancia > 30: 
-    total = total + 60
+# if distancia > 30: 
+#     total = total + 60
 
-elif distancia > 10:
-    total = total + 20
+# elif distancia > 10:
+#     total = total + 20
 
 
-print(f"Total: R$ {total:.2f}")
+# print(f"Total: R$ {total:.2f}")
+
+## DIA 21 -
+
+# 1. Pedir: nome, valor da mão de obra, quantidade de peças e valor de cada peça
+# 2. Calcular: o total (mão de obra + quantidade de peças * valor de cada peça)
+# 3. Decidir: se o total for 1000 ou mais, desconto de 15%
+# 4. Senão, se o total for 500 ou mais, desconto de 10% (senão, sem desconto)
+# 5. Mostrar: nome e total com 2 casas decimais
+
+nome = input("Nome do cliente: ")
+mao_de_obra = float(input("Valor da mão de obra: "))
+qtd_pecas = int(input("Quantidade de peças: "))
+valor_peca = float(input("Valor da peça: "))
+
+total = mao_de_obra + qtd_pecas * valor_peca
+
+if total >= 1000:
+    desconto = total * 0.15
+    total = total - desconto
+elif total >= 500:
+    desconto = total * 0.10
+    total = total - desconto
+
+print (f"{nome}, Seu total: R$ {total:.2f}")
