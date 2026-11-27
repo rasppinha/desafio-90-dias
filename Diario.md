@@ -90,3 +90,6 @@ Ciclo: Editar, add, commit, push
 
 ## Dia 21 25/11/2026
 -Hoje criei um codigo praticamente sozinho (ex01_revisao.py), que faz a coleta de nome, valor e quantidade. Com isso somar valor e quantidade e mostrar, se passar de um valor "x" é dado um desconto em uma porcentagem "y"
+
+## Dia 22 26/11/2026
+- Inicio da terceira semana conforme a sequencia dos dias, Aprendendo a usar o "for" e "while", criei um codigo "codigos03.py" dentro da "Semana03".
