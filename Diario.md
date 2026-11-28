@@ -93,3 +93,6 @@ Ciclo: Editar, add, commit, push
 
 ## Dia 22 26/11/2026
 - Inicio da terceira semana conforme a sequencia dos dias, Aprendendo a usar o "for" e "while", criei um codigo "codigos03.py" dentro da "Semana03".
+
+## Dia 23 27/11/2026
+- Refiz todo o exercicio anterior de forma mais simplificada afim de entender, e tirar todas duvidas.
